@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full p-4 bg-violet-700 flex items-center justify-center mt-8 text-white text-lg popping-regular tracking-wider select-none">
+    <div class="w-full p-4 bg-violet-700 flex items-center justify-center  text-white text-lg popping-regular tracking-wider select-none">
         ASB &copy {{ date }}
     </div>
 </template>

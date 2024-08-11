@@ -1,6 +1,6 @@
 <template>
   <Navbar />
-  <div class="w-full h-full flex justify-center">
+  <div class="w-full h-full flex justify-center pb-10">
     <div class="lg:w-2/3 w-full flex flex-col">
       <div class="flex justify-center">
         <img :src="items.imageUrl" class="w-3/4 rounded-md" alt="" />

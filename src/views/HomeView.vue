@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-pink-50 w-full h-full">
+  <div class="bg-pink-50 w-full h-full pb-10">
     <HomeViewHeader />
     <div class="lg:px-8 px-4 py-2 w-5/6 mx-auto">
       <div class="w-full flex flex-wrap items-center justify-between gap-4">

@@ -4,7 +4,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
-RUN npm run build -- --mode development
+RUN NODE_ENV=development vite build --mode development
 
 # Production stage
 FROM nginx:stable-alpine as production-stage
