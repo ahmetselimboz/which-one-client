@@ -2,14 +2,9 @@
 FROM node:lts-alpine as build-stage
 WORKDIR /app
 COPY package*.json ./
-ENV NODE_ENV=development
-ENV DEV=true
-ENV MODE=development
-ENV PROD=false
-ENV SSR=false
 RUN npm install
 COPY . .
-RUN npm run build
+RUN npm run build --mode development
 
 # Production stage
 FROM nginx:stable-alpine as production-stage
