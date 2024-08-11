@@ -27,6 +27,6 @@ onBeforeMount(async () => {
   if (res.data.data.success) {
     items.value = res.data.data.list;
   }
-  console.log(import.meta.env)
+
 });
 </script>

@@ -29,7 +29,5 @@ const props = defineProps(["item"])
 
 const card = ref(props.item)
 
-onMounted(()=>{
-    console.log(card.value.item.tite)
-})
+
 </script>
