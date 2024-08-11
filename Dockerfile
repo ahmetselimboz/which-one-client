@@ -5,7 +5,7 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 EXPOSE 8080
-CMD ["npm", "run", "prewiew"]
+CMD ["npm", "run", "preview"]
 
 # Production stage
 # FROM nginx:stable-alpine as production-stage
