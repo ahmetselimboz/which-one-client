@@ -14,6 +14,8 @@
           type="text"
           class="outline-none w-full py-2 px-4 lg:text-lg text-sm poppins-regular text-gray-600"
           placeholder="Ara..."
+          @input="changeText"
+         
         />
         <button
           class="bg-indigo-500 hover:bg-indigo-600 transition-all poppins-regular h-full px-4 text-white flex flex-row items-center gap-2 lg:text-lg text-sm"
@@ -25,4 +27,17 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from 'vue';
+const emit = defineEmits(['changedItems'])
+
+const data = ref(null)
+
+
+
+const changeText = (e)=>{
+
+  data.value = e.target.value
+  emit("changedItems", data.value)
+}
+ </script>

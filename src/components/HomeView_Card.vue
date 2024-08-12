@@ -1,5 +1,5 @@
 <template>
-    <div class="w-[370px] bg-black rounded-md h-fit flex flex-col overflow-hidden">
+    <div class="w-[370px] bg-slate-300 rounded-md h-fit flex flex-col overflow-hidden">
         <div class="w-full h-3/4">
             <img :src="card.item.imageUrl" class="w-full h-[225px] object-cover" alt="">
         </div>
@@ -19,15 +19,18 @@
         </div>
     
     </div>
+  
 </template>
 
 <script setup>
-import { onMounted, ref } from 'vue';
-
+import { computed, onMounted, ref } from 'vue';
 
 const props = defineProps(["item"])
 
 const card = ref(props.item)
+
+
+
 
 
 </script>
