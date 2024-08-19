@@ -1,3 +1,4 @@
+![Uygulama Ekran Görüntüsü](https://image.ahmetselimboz.com.tr/image/hangisisin_thumbnail.jpg)
 
 # Hangisisin?
 
