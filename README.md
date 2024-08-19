@@ -35,22 +35,22 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
 
-    \`\`\`bash
+    ```bash
     git clone https://github.com/ahmetselimboz/which-one-client.git
     cd which-one-client
-    \`\`\`
+    ```
 
 2. **Install dependencies:**
 
-    \`\`\`bash
+    ```bash
     npm install
-    \`\`\`
+    ```
 
 3. **Run the development server:**
 
-    \`\`\`bash
+    ```bash
     npm run dev
-    \`\`\`
+    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
