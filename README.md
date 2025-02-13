@@ -1,9 +1,6 @@
-![Uygulama Ekran Görüntüsü](https://image.ahmetselimboz.com.tr/image/hangisisin_thumbnail.jpg)
+![Uygulama Ekran Görüntüsü](https://cdn.ahmetselimboz.com/images/hangisisin_thumbnail.jpg)
 
 # Hangisisin?
-
-[![Website](https://img.shields.io/website-up-down-green-red/https/hangisisin.ahmetselimboz.com.tr.svg)](https://hangisisin.ahmetselimboz.com.tr/)
-[![GitHub](https://img.shields.io/github/license/ahmetselimboz/which-one-client)](https://github.com/ahmetselimboz/which-one-client/blob/main/LICENSE)
 
 ## Table of Contents
 - [Introduction](#introduction)
